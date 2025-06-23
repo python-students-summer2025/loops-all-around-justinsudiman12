@@ -18,15 +18,15 @@ def main():
     - and then call the sing method, passing the number of bottles to start as its argument.
     """
 
-    # run for loop version
+    # # # run for loop version
     num_bottles = flv.get_starting_number()
     flv.sing(num_bottles)
 
-    # run while loop with accumulator version
+    # # # run while loop with accumulator version
     num_bottles = wlav.get_starting_number()
     wlav.sing(num_bottles)
 
-    # run while loop with flag version
+    # # # run while loop with flag version
     num_bottles = wlfv.get_starting_number()
     wlfv.sing(num_bottles)
 
